@@ -15,4 +15,27 @@ public class SphereController : MonoBehaviour {
 		rigidbody.AddForce(movement * speed * Time.deltaTime);
 		
 	}
+
+	/*void OnTriggerStay(Collider other) 
+	{
+		if (other.gameObject.tag == "Puzzle") 
+		{
+			if(Input.GetKeyDown(KeyCode.F))
+			{
+				if(other.gameObject.renderer.material.color == Color.green)
+				{
+					other.gameObject.renderer.material.color = Color.red;
+				}
+				else
+				{
+					other.gameObject.renderer.material.color = Color.green;
+				}
+			}
+			
+			
+		}
+		
+	}*/
+	
+
 }
