@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_Scripts\MichaelTest\CameraScript.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\Room1DoorTrigger.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\SphereController.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\colorchange.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\cube_contBL.cs" />

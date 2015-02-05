@@ -5,7 +5,7 @@ public class cube_contBR : MonoBehaviour {
 
 	public GameObject BM;
 	public GameObject MR;
-	public bool isGreen = false;
+	public bool isGreen = true;
 	
 	cube_contBM BMcont; 
 	cube_contMR MRcont;
@@ -14,7 +14,8 @@ public class cube_contBR : MonoBehaviour {
 	void Start () {
 		BMcont = BM.GetComponent<cube_contBM>();
 		MRcont = MR.GetComponent<cube_contMR>();
-		gameObject.renderer.material.color = Color.red;
+		gameObject.renderer.material.color = Color.green;
+		isGreen = true;
 	}
 	
 	// Update is called once per frame
