@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	public float run = 12f;
-	public float walk = 4f;
+	public float run = 10f;
+	public float walk = 3f;
 	Vector3 movement;
 	Rigidbody playerRigidbody;
 	int floorMask;
