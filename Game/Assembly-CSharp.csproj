@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\Addition_Controller.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\CameraScript.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\Camera_Orbit.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\Room1DoorTrigger.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\SphereController.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\colorchange.cs" />
@@ -60,6 +62,15 @@
      <Compile Include="Assets\_Scripts\MichaelTest\cube_contUM.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\cube_contUR.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\floor_puzzle_controller.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\CameraFollow.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\EnemySight.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\Switch1_Controller.cs" />
+     <Compile Include="Assets\_Scripts\Switch2_Controller.cs" />
+     <Compile Include="Assets\_Scripts\Switch3_Controller.cs" />
+     <Compile Include="Assets\_Scripts\Switch4_Controller.cs" />
+     <Compile Include="Assets\_Scripts\Switch5_Controller.cs" />
+     <Compile Include="Assets\_Scripts\Switch6_Controller.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
