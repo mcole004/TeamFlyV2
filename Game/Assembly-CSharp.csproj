@@ -46,8 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\MichaelTest\CameraScript.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\Room1DoorTrigger.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\SphereController.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\colorchange.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contBL.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contBM.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contBR.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contML.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contMM.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contMR.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contUL.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contUM.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\cube_contUR.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\floor_puzzle_controller.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
