@@ -12,12 +12,11 @@ public class door0 : MonoBehaviour {
 		
     void Awake()
 	{
-		//doorHingeRoom1 = GameObject.Find ("Hinge0").transform;
+		//find the hinge object 
 		doorHingeRoom1 = GameObject.FindGameObjectWithTag ("Hinge0").transform;
 		//want the door to be in closed position
 		open.eulerAngles = new Vector3 (0,0,0);
-		
-		//gameObject.renderer.material.color = Color.gray;
+
 	}
 	
 	void Update () 
@@ -31,7 +30,7 @@ public class door0 : MonoBehaviour {
 		if(other.tag == "Player") 
 		{
 			//The posoition the door is fully opened at
-			open.eulerAngles= new Vector3(0,90,0);
+			open.eulerAngles= new Vector3(0,-90,0);
 			
 	    }
 	}
