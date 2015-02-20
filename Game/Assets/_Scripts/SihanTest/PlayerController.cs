@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
 	Rigidbody playerRigidbody;
 	int floorMask;
 	float camRayLength = 50f;
+	public bool isRunning = false;
 	// Use this for initialization
 	void Awake () {
 		floorMask = LayerMask.GetMask ("Floor");
@@ -25,12 +26,17 @@ public class PlayerController : MonoBehaviour {
 
 	void Move(float h, float v){
 		movement.Set (h, 0f, v);
+		if (h == 0.0f && v == 0.0f) {
+			isRunning = false;
+		}
 		float speed;
 		if (Input.GetKey (KeyCode.LeftShift)) {
 			speed = walk;
+			isRunning = false;
 		}
 		else {
 			speed = run;
+			isRunning = true;
 		}
 		movement = movement.normalized * speed * Time.deltaTime;
 		playerRigidbody.MovePosition (transform.position + movement);
