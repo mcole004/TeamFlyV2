@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
-
+	
 	public float run = 10f;
 	public float walk = 3f;
 	Vector3 movement;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour {
 		Move (h, v);
 		Turning ();
 	}
-
+	
 	void Move(float h, float v){
 		movement.Set (h, 0f, v);
 		if (h == 0.0f && v == 0.0f) {
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
 		movement = movement.normalized * speed * Time.deltaTime;
 		playerRigidbody.MovePosition (transform.position + movement);
 	}
-
+	
 	void Turning ()
 	{
 		Ray camRay = Camera.main.ScreenPointToRay (Input.mousePosition);

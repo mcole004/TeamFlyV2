@@ -4,7 +4,16 @@
 TagManager:
   tags:
   - Puzzle
+  - Hinge0
+  - Hinge4
   - Enemy
+  - Hinge5
+  - Hinge6
+  - Hinge1
+  - Hinge2
+  - Hinge3
+  - Hinge7
+  - Hinge8
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

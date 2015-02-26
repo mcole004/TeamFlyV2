@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System;
 
 public class EnemySight : MonoBehaviour {
-	public bool playerInSight;
+	//private bool playerInSight = false;
 	private bool chase;
 	public float fieldOfViewAngle = 90f;
 	public float speed = 2.0f;
@@ -12,35 +12,37 @@ public class EnemySight : MonoBehaviour {
 	private SphereCollider col;
 	Transform player;
 	NavMeshAgent nav;
-
+	
 	private PlayerController playerController;
 	private float detectedTime;
 	private Vector3 startPosition;
 	private bool isRunning;
-
+	
 	public Vector3 destination_1;
 	public Vector3 destination_2;
-
+	public Vector3 destination_3;
+	public Vector3 destination_4;
+	
 	private int counter = 0;
-
+	
 	private List<Vector3> posList = new List<Vector3>();
 	void Awake ()
 	{
 		thePlayer = GameObject.FindGameObjectWithTag ("Player");
 		player = thePlayer.transform;
-		col = GetComponent <SphereCollider>();
+		//col = GetComponent <SphereCollider>();
 		nav = GetComponent <NavMeshAgent> ();
 		playerController = thePlayer.GetComponent<PlayerController> ();
 		chase = false;
 	}
-
+	
 	void Start() {
 		startPosition = transform.position;
 		Debug.Log (startPosition.x + " " + startPosition.y + " " + startPosition.z);
-		destination_1 = new Vector3 (22, 0, 5);
-		destination_2 = startPosition;
 		posList.Add (destination_1);
 		posList.Add (destination_2);
+		posList.Add (destination_3);
+		posList.Add (destination_4);
 	}
 	void Update()
 	{
@@ -54,7 +56,7 @@ public class EnemySight : MonoBehaviour {
 			}
 		}
 		else if (chase == false){
-			nav.speed = 4.0f;
+			nav.speed = 3.0f;
 			//nav.enabled = false;
 			nav.SetDestination (posList[counter]);
 			if(Math.Round(transform.position.x) == Math.Round(posList[counter].x)
@@ -62,49 +64,53 @@ public class EnemySight : MonoBehaviour {
 				counter = (counter + 1) % posList.Count;
 			}
 		}
-		
-		
+		//detect_player ();
+	
+	}
 
+	void FixedUpdate ()
+	{
+		detect_player ();
 	}
 	
-	void OnTriggerStay (Collider other)
+	void detect_player ()
 	{
+		
 
-		if (other.gameObject == thePlayer) 
-		{
-			playerInSight = false;
+			//playerInSight = false;
 			//Debug.Log("player in collider!");
-			Vector3 direction = other.transform.position - transform.position;
+			Vector3 direction = thePlayer.transform.position - transform.position;
 			float angle = Vector3.Angle (direction, transform.forward);
-
-			if (angle < fieldOfViewAngle * 0.5f) 
+			
+			if (angle < 45.0f) 
 			{
 				RaycastHit hit;
-
-				if (Physics.Raycast (transform.position + transform.up, direction.normalized, out hit, col.radius)) 
+				
+				if (Physics.Raycast (transform.position + transform.up, direction.normalized, out hit, 15.0f)) 
 				{
 					if (hit.collider.gameObject == thePlayer) 
 					{
-						playerInSight = true;
+						//playerInSight = true;
 						chase = true;
 						detectedTime = Time.time;
 						//Debug.Log("detect player!");
 					}
 				}
-
+				
 			}
+			
 			else if (angle < 180.0f) 
 			{
 				RaycastHit hit;
 				
-				if (Physics.Raycast (transform.position + transform.up, direction.normalized, out hit, col.radius/2)) 
+				if (Physics.Raycast (transform.position + transform.up, direction.normalized, out hit, 6.0f)) 
 				{
 					if (hit.collider.gameObject == thePlayer) 
 					{
-
+						
 						isRunning = playerController.isRunning;
 						if(isRunning){
-							playerInSight = true;
+							//playerInSight = true;
 							chase = true;
 							detectedTime = Time.time;
 							//Debug.Log("detect player!");
@@ -113,7 +119,7 @@ public class EnemySight : MonoBehaviour {
 				}
 				
 			}
+			
 
-		}
 	}
 }
