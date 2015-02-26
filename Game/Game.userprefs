@@ -1,11 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\MichaelTest\floor_puzzle_controller.cs">
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\MichaelTest\Room1DoorTrigger.cs">
     <Files>
-      <File FileName="Assets\_Scripts\MichaelTest\floor_puzzle_controller.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\MichaelTest\Room1DoorTrigger.cs" Line="48" Column="3" />
-      <File FileName="Assets\_Scripts\MichaelTest\cube_contUL.cs" Line="17" Column="3" />
-      <File FileName="Assets\_Scripts\MichaelTest\cube_contBR.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\MichaelTest\Room1DoorTrigger.cs" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Doors\door6.cs">
+    <Files>
+      <File FileName="Assets\_Scripts\Doors\door6.cs" Line="34" Column="39" />
+>>>>>>> origin/Demo2
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
