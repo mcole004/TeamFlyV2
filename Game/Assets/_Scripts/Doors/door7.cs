@@ -31,7 +31,7 @@ public class door7 : MonoBehaviour {
 		if(other.tag == "Player") 
 		{
 			//The posoition the door is fully opened at
-			open.eulerAngles= new Vector3(0,90,0);
+			open.eulerAngles= new Vector3(0,-90,0);
 			
 		}
 	}

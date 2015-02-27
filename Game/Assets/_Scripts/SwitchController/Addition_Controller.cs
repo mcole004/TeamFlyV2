@@ -20,10 +20,12 @@ public class Addition_Controller : MonoBehaviour {
 		SW5 = GameObject.Find("Switch5").GetComponent<Switch5_Controller>();
 		SW6 = GameObject.Find("Switch6").GetComponent<Switch6_Controller>();
 		total_val = SW1.value + SW2.value + SW3.value + SW4.value + SW5.value + SW6.value;
+		//total_addition_UI.total = total_val;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		total_val = SW1.value + SW2.value + SW3.value + SW4.value + SW5.value + SW6.value;
+		//total_addition_UI.total = total_val;
 	}
 }
