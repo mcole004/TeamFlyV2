@@ -26,6 +26,6 @@ public class Addition_Controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		total_val = SW1.value + SW2.value + SW3.value + SW4.value + SW5.value + SW6.value;
-		//total_addition_UI.total = total_val;
+		total_addition_UI.total = total_val;
 	}
 }
