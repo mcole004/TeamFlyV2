@@ -1,23 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class door3 : MonoBehaviour {
+public class door10 : MonoBehaviour {
 
 	private Transform doorHingeRoom1;
 	
 	public float doorSpeed = 5f;
 	
 	public Quaternion open = Quaternion.identity;
-
+	
 	Addition_Controller add_cont;
 	int total;
 	
 	void Awake()
 	{
 		//doorHingeRoom1 = GameObject.Find ("Hinge0").transform;
-		doorHingeRoom1 = GameObject.FindGameObjectWithTag ("Hinge3").transform;
+		doorHingeRoom1 = GameObject.FindGameObjectWithTag ("Hinge10").transform;
 		//want the door to be in closed position
-		open.eulerAngles = new Vector3 (0,0,0);
+		open.eulerAngles = new Vector3 (0,90,0);
 		add_cont = GameObject.Find ("addition_puzzle").GetComponent<Addition_Controller> ();
 		total = add_cont.total_val;
 		//gameObject.renderer.material.color = Color.gray;
@@ -32,7 +32,7 @@ public class door3 : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other)
 	{
-		if(other.tag == "Player" && total == 11) 
+		if(other.tag == "Player" && total == 10) 
 		{
 			//The posoition the door is fully opened at
 			open.eulerAngles= new Vector3(0,-90,0);
@@ -45,7 +45,7 @@ public class door3 : MonoBehaviour {
 		if (other.tag == "Player")
 		{
 			//The position where the door is closed at
-			open.eulerAngles = new Vector3(0,0,0);
+			open.eulerAngles = new Vector3(0,90,0);
 		}
 		
 		

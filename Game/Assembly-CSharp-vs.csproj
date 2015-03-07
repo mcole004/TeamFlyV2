@@ -73,8 +73,10 @@
      <Compile Include="Assets\_Scripts\Pause_controller.cs" />
      <Compile Include="Assets\_Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\_Scripts\SihanTest\CameraFollow.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\EnemyAttack.cs" />
      <Compile Include="Assets\_Scripts\SihanTest\EnemySight.cs" />
      <Compile Include="Assets\_Scripts\SihanTest\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\PlayerHealth.cs" />
      <Compile Include="Assets\_Scripts\SwitchController\Addition_Controller.cs" />
      <Compile Include="Assets\_Scripts\SwitchController\Switch1_Controller.cs" />
      <Compile Include="Assets\_Scripts\SwitchController\Switch2_Controller.cs" />
@@ -90,6 +92,7 @@
      <Compile Include="Assets\_Scripts\lights_pulse\light_pulse6.cs" />
      <Compile Include="Assets\_Scripts\player_UI.cs" />
      <Compile Include="Assets\_Scripts\total_addition_UI.cs" />
+     <Compile Include="Assets\door10.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
