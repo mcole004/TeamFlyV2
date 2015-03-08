@@ -59,8 +59,8 @@ public class EnemySight : MonoBehaviour {
 			nav.speed = 3.0f;
 			//nav.enabled = false;
 			nav.SetDestination (posList[counter]);
-			if( (posList[counter].x - transform.position.x) < 1.0f 
-			&& (posList[counter].z - transform.position.z) < 1.0f){
+			if(Math.Round(transform.position.x) == Math.Round(posList[counter].x)
+			   && Math.Round(transform.position.z) == Math.Round(posList[counter].z)){
 				counter = (counter + 1) % posList.Count;
 			}
 		}

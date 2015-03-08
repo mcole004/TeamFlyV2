@@ -1238,7 +1238,7 @@ Transform:
   m_Children:
   - {fileID: 308775304}
   m_Father: {fileID: 335985764}
-  m_RootOrder: 1
+  m_RootOrder: 3
 --- !u!114 &143678169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,7 +1324,7 @@ RectTransform:
   m_Children:
   - {fileID: 792744088}
   m_Father: {fileID: 1946507713}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -2294,7 +2294,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1946507713}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 150, y: 30}
@@ -2695,7 +2695,7 @@ Transform:
   m_Children:
   - {fileID: 2130865322}
   m_Father: {fileID: 335985764}
-  m_RootOrder: 3
+  m_RootOrder: 1
 --- !u!114 &316103150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2812,9 +2812,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1951694024}
-  - {fileID: 143678168}
-  - {fileID: 828492789}
   - {fileID: 316103149}
+  - {fileID: 828492789}
+  - {fileID: 143678168}
   - {fileID: 193772623}
   - {fileID: 175921706}
   - {fileID: 44608275}
@@ -2945,7 +2945,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1946507713}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3863,7 +3863,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 1.29999995
+  m_StoppingDistance: .75
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -4322,7 +4322,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1946507713}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -650, y: 319}
@@ -7848,7 +7848,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 1.29999995
+  m_StoppingDistance: .75
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -8889,7 +8889,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1946507713}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
   m_AnchoredPosition: {x: 2.47955322e-05, y: 150}
@@ -12820,12 +12820,12 @@ RectTransform:
   m_Children:
   - {fileID: 1909835751}
   - {fileID: 216364634}
-  - {fileID: 340255170}
   - {fileID: 568613543}
-  - {fileID: 2003719205}
   - {fileID: 1397078887}
-  - {fileID: 290582098}
+  - {fileID: 340255170}
+  - {fileID: 2003719205}
   - {fileID: 160325431}
+  - {fileID: 290582098}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
@@ -13453,7 +13453,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1946507713}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: .5}
   m_AnchorMax: {x: 0, y: .5}
   m_AnchoredPosition: {x: 132.849976, y: 243.400024}
