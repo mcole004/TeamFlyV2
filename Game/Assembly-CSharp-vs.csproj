@@ -46,7 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\Doors\door0.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door1.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door2.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door3.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door4.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door5.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door6.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door7.cs" />
+     <Compile Include="Assets\_Scripts\Doors\door8.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\CameraScript.cs" />
+     <Compile Include="Assets\_Scripts\MichaelTest\Camera_Orbit.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\Room1DoorTrigger.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\SphereController.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\colorchange.cs" />
@@ -60,6 +70,29 @@
      <Compile Include="Assets\_Scripts\MichaelTest\cube_contUM.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\cube_contUR.cs" />
      <Compile Include="Assets\_Scripts\MichaelTest\floor_puzzle_controller.cs" />
+     <Compile Include="Assets\_Scripts\Pause_controller.cs" />
+     <Compile Include="Assets\_Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\CameraFollow.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\EnemyAttack.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\EnemySight.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\SihanTest\PlayerHealth.cs" />
+     <Compile Include="Assets\_Scripts\SwitchController\Addition_Controller.cs" />
+     <Compile Include="Assets\_Scripts\SwitchController\Switch1_Controller.cs" />
+     <Compile Include="Assets\_Scripts\SwitchController\Switch2_Controller.cs" />
+     <Compile Include="Assets\_Scripts\SwitchController\Switch3_Controller.cs" />
+     <Compile Include="Assets\_Scripts\SwitchController\Switch4_Controller.cs" />
+     <Compile Include="Assets\_Scripts\SwitchController\Switch5_Controller.cs" />
+     <Compile Include="Assets\_Scripts\SwitchController\Switch6_Controller.cs" />
+     <Compile Include="Assets\_Scripts\lights_pulse\light_pulse1.cs" />
+     <Compile Include="Assets\_Scripts\lights_pulse\light_pulse2.cs" />
+     <Compile Include="Assets\_Scripts\lights_pulse\light_pulse3.cs" />
+     <Compile Include="Assets\_Scripts\lights_pulse\light_pulse4.cs" />
+     <Compile Include="Assets\_Scripts\lights_pulse\light_pulse5.cs" />
+     <Compile Include="Assets\_Scripts\lights_pulse\light_pulse6.cs" />
+     <Compile Include="Assets\_Scripts\player_UI.cs" />
+     <Compile Include="Assets\_Scripts\total_addition_UI.cs" />
+     <Compile Include="Assets\door10.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
