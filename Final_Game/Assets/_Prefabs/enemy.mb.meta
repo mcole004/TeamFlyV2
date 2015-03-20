@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: ce64d7244c994394c89354a0977579ce
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: hiip
+    100004: imagePlane1
+    100006: imagePlane2
+    100008: joint10
+    100010: joint11
+    100012: joint12
+    100014: joint13
+    100016: joint2
+    100018: joint2 1
+    100020: joint5
+    100022: joint5 1
+    100024: joint6
+    100026: joint6 1
+    100028: joint8
+    100030: joint9
+    100032: left_hand
+    100034: left_hand_ik
+    100036: left_leg
+    100038: left_leg_ik
+    100040: left_upper
+    100042: pCube1
+    100044: place3dTexture1
+    100046: polySurface1
+    100048: polySurface2
+    100050: pPyramid1
+    100052: pSphere1
+    100054: right_hand
+    100056: right_hand_ik
+    100058: right_ik
+    100060: right_leg
+    100062: right_leg_ik
+    100064: right_upper
+    100066: robot
+    100068: robot1
+    100070: sponse
+    100072: transform1
+    100074: transform2
+    100076: transform3
+    100078: transform4
+    100080: transform5
+    100082: transform6
+    400000: //RootNode
+    400002: hiip
+    400004: imagePlane1
+    400006: imagePlane2
+    400008: joint10
+    400010: joint11
+    400012: joint12
+    400014: joint13
+    400016: joint2
+    400018: joint2 1
+    400020: joint5
+    400022: joint5 1
+    400024: joint6
+    400026: joint6 1
+    400028: joint8
+    400030: joint9
+    400032: left_hand
+    400034: left_hand_ik
+    400036: left_leg
+    400038: left_leg_ik
+    400040: left_upper
+    400042: pCube1
+    400044: place3dTexture1
+    400046: polySurface1
+    400048: polySurface2
+    400050: pPyramid1
+    400052: pSphere1
+    400054: right_hand
+    400056: right_hand_ik
+    400058: right_ik
+    400060: right_leg
+    400062: right_leg_ik
+    400064: right_upper
+    400066: robot
+    400068: robot1
+    400070: sponse
+    400072: transform1
+    400074: transform2
+    400076: transform3
+    400078: transform4
+    400080: transform5
+    400082: transform6
+    4300000: polySurface2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hiip
+        weight: 1
+      - path: hiip/left_leg
+        weight: 1
+      - path: hiip/left_leg/joint2
+        weight: 1
+      - path: hiip/right_leg
+        weight: 1
+      - path: hiip/right_leg/joint2 1
+        weight: 1
+      - path: hiip/sponse
+        weight: 1
+      - path: hiip/sponse/joint8
+        weight: 1
+      - path: hiip/sponse/joint8/joint9
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/joint10
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/left_upper
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/left_upper/left_hand
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/left_upper/left_hand/joint5
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/left_upper/left_hand/joint5/joint6
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/right_upper
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/right_upper/right_hand
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/right_upper/right_hand/joint5 1
+        weight: 1
+      - path: hiip/sponse/joint8/joint9/right_upper/right_hand/joint5 1/joint6 1
+        weight: 1
+      - path: imagePlane1
+        weight: 1
+      - path: imagePlane2
+        weight: 1
+      - path: left_hand_ik
+        weight: 1
+      - path: left_leg_ik
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform2
+        weight: 1
+      - path: place3dTexture1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform5
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: pPyramid1
+        weight: 1
+      - path: pPyramid1/transform6
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform1
+        weight: 1
+      - path: right_hand_ik
+        weight: 1
+      - path: right_ik
+        weight: 1
+      - path: right_leg_ik
+        weight: 1
+      - path: robot
+        weight: 1
+      - path: robot/transform4
+        weight: 1
+      - path: robot1
+        weight: 1
+      - path: robot1/transform3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
